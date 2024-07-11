@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.header{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    background-color: rgb(154, 212, 245);
+}
+body{
+    height: 100vh;
+    text-align: center;
+    background-color: bisque;
+    padding: 2rem;
+}
+.header-content{
+    max-width: 1280px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(4, 4, 65);
+    text-decoration: none;
+    gap: 0.625rem;
+}
+.Logo-icon{
+    height: 5rem;
+    width: 10rem;
+    box-shadow: 20px;
+}
+.logo-text{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav{
+    display: none;
+    gap: 30px;
+}
+@media screen and (min-width:780px) {
+    .nav{
+        display: flex;
+    }
+}
+.nav-link{
+    color: #273c5d;
+    font-size: 20px;
+    font-weight: bold;
+    transform: color 0.1s;
+}
+.nav-link:hover{
+    color: blue;
+}
+.SignUpButton{
+    display: none;
+    border: none;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    transition: all 0.1s;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+@media screen and (min-width:780px) {
+    .SignUpButton{
+        display: block;
+    }
+}
+.SignUpButton:hover{
+    background-color: rgb(48, 8, 86);
+}
+
+/* feature section */
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.para1{
+    justify-content: center;
+    padding: 100px;
+}
+.para2{
+    justify-content: center;
+    padding: 100px;
+}
+.para3{
+    justify-content: center;
+    padding: 100px;
+}
+.feature{
+    min-height: 50vh;
+    padding: 25px;
+    margin: auto;
+    overflow: hidden;
+    background-color: tomato;
+    font-weight: bold;
+    align-items: center;
+    
+}
+.feature1{
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.testimonial{
+    min-height: 50vh;
+    padding: 25px;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgb(198, 173, 31);
+    font-weight: bold;
+    align-items: center;
+}
+.testimonial1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.call-to-action{
+    min-height: 50vh;
+    padding: 25px;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgb(180, 107, 95);
+    font-weight: bold;
+    align-items: center;
+}
+.call-to-action1{
+    font-size: 30px;
+    font-weight: bold;
+}
+footer{
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+footer p{
+    margin: 0.5rem 0;
+}
+footer a{
+    color: #236325;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+    background-color: rgb(125, 125, 217);
+}
+
+.back-to-top{
+        color: aqua;
+}
